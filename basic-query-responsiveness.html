@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Responsiveness</title>
+    <style>
+        .containar{
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .food img{
+            width: 100%;
+            border: 1px solid red;
+        }
+        @media  screen and (max-width: 576px) {
+            .containar{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Responsiveness
+    </h1>
+    <section>
+        <div class="containar">
+            <div class="food"><img src="assets/food.webp" alt="">
+            <h2>Food-1</h2>
+            <p>Price: $100</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p>
+        </div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-2</h2>
+                <p>Price: $200</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-3</h2>
+                <p>Price: $300</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-4</h2>
+                <p>Price: $400</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-5</h2>
+                <p>Price: $500</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-6</h2>
+                <p>Price: $600</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-7</h2>
+                <p>Price: $700</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-8</h2>
+                <p>Price: $800</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt=""><h2>Food-1</h2>
+                <p>Price: $900</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p>
+            </div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-10</h2>
+                <p>Price: $1000</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-11</h2>
+                <p>Price: $1100</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+            <div class="food"><img src="assets/food.webp" alt="">
+                <h2>Food-12</h2>
+                <p>Price: $1200</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate ex ut sed adipisci placeat magnam nisi numquam blanditiis deleniti.</p></div>
+        </div>
+    </section>
+</body>
+</html>
